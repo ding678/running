@@ -1,0 +1,14 @@
+.noticelist{padding:20rpx 14rpx 0 26rpx;}
+.noticelist view{position: relative;border-left:2px solid #dfdfdf;padding:0 24rpx 36rpx;}
+.noticelist text{display:block;width:100%;word-break:break-all;font-size: 28rpx;}
+.noticelist view:last-child{padding-bottom:0;}
+.QRcode{margin:40rpx;}
+.QRcode .pic{display: flex-box;text-align: center;}
+.pic image{width:100px;height: 100px;}
+.tip{display: block;marign-top:16rpx;text-align: center;font-size: 24rpx;color:#666;}
+
+
+
+
+
+

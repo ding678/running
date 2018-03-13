@@ -1,0 +1,26 @@
+<view class='user'>
+  <view class='app-item'>
+    <view>
+      <navigator url='changepic?picSrc={{userInfo.userPic}}'>
+        <text class='item-name'>头像</text>
+        <image src='{{userInfo.userPic}}' class="num pic"></image>
+        <image src='../../../images/arrow-r.png' class='more-r'></image>
+      </navigator>
+    </view>
+    <view>
+      <text class='item-name'>昵称</text>
+      <text class='num'>{{userInfo.userName}}</text>
+      <image src='../../../images/arrow-r.png' class='more-r'></image>
+    </view>
+    <view>
+      <text class='item-name'>性别</text>
+      <text class='num'>{{userInfo.sex}}</text>
+      <image src='../../../images/arrow-r.png' class='more-r'></image>
+    </view>
+    <view>
+      <text class='item-name'>城市</text>
+      <text class='num'>{{userInfo.city}}</text>
+      <image src='../../../images/arrow-r.png' class='more-r'></image>
+    </view>
+  </view>
+</view>

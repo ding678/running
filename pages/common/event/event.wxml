@@ -1,0 +1,13 @@
+<!--pages/common/event/event.wxml-->
+<view class='event'>
+  <scroll-view scroll-y>
+    <view wx:for="{{eventList}}" class='event-list'>
+      <image src='{{item.picthumb}}' width="90rpx" height="124rpx"></image>
+      <view>
+          <text class='event-title'>{{item.title ? item.title : '这次活动很重要，大家要积极参加'}}</text>
+          <text class='event-date'>{{item.publishTime}}</text>
+          <text class="event-sign">{{item.readCount}}人报名</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

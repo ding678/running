@@ -1,0 +1,24 @@
+@import "../general/fontIcon.wxss"
+.container{height: 100%;}
+.header{position:relative;width: 100%;}
+.header image{width:100%;}   
+swiper{height: 220px;}
+.header .desc-logo{position:absolute;top:0;left:0;width: 100%;padding:20rpx;display: flex;}
+.desc-logo image{width:160rpx;height:110rpx;}
+.desc-word {display: flex;flex-direction:column;padding:0 20rpx;}
+.desc-word .text{font-size:24rpx;margin-top:10rpx;color:#333;}
+
+.all-block {display: flex;flex-wrap:wrap;margin-right: -8rpx;margin:20rpx -8rpx 0 0;justify-content:space-between;padding:0 20rpx;}
+.all-block image{width:100%;height: 100rpx;}
+.all-block view{margin:4rpx 8rpx 18rpx 0;width:220rpx;height: 160rpx;display: flex;justify-content:center;align-items:center;border:1px solid #dfdfdf;border-radius: 4px;font-size: 32rpx;flex-direction: column;}
+.all-block i{font-size: 30px;}
+.icon-fengcai1{color:	#7B68EE;}
+.icon-ketang{color:	#555;}
+.icon-yundong{color:	#FFC125;}
+.icon-huwaixiuxi{color:	#32CD32;}
+.icon-gonggao1{color:	#FA8072;}
+.icon-bhjbaoming{color:	#008B8B;}
+.footer{margin-top:10rpx;}
+.footer view{font-size: 28rpx;color:#666;padding:8rpx;text-indent: 2em;}
+.footer view:first-child{line-height: 20px;}
+

@@ -1,0 +1,7 @@
+.changepic{height:100vh;display: flex;align-items: center;justify-content: center;}
+/* .changepic image{position: fixed;top:50%;left:50%;transform: translate(-50%,-50%);}  */
+.changepic button{position: fixed;bottom:20px;right: 10px;}
+
+
+
+

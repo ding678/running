@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/common/aboutme/amend/amend",
+    "pages/common/aboutme/amend/changepic",
+    "pages/common/event/event",
+    "pages/common/webNotice/webNotice",
+    "pages/logs/logs",
+    "pages/common/test/test",
+    "pages/common/experience/experience",
+    "pages/common/classroom/classroom",
+    "pages/common/component/textArea",
+    "pages/common/articleDetail/articleDetail",
+    "pages/common/signup/signup",
+    "pages/common/aboutme/aboutme",
+    "pages/common/styleShow/styleShow",
+    "pages/common/component/editor"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#47b363"
+  },
+  "tabBar": {
+    "color": "#555",
+    "selectedColor": "#ff2020",
+    "backgroundColor": "#dfdfdf",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index-cur.png"
+      },
+      {
+        "text": "赛事安排",
+        "pagePath": "pages/common/event/event",
+        "iconPath": "pages/images/list.png",
+        "selectedIconPath": "pages/images/list-cur.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/common/aboutme/aboutme",
+        "iconPath": "pages/images/more.png",
+        "selectedIconPath": "pages/images/more-cur.png"
+      }
+    ]
+  }
+}

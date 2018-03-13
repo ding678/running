@@ -1,0 +1,6 @@
+/* pages/common/signup/signup.wxss */
+.signup{padding:0 12rpx;}
+.signup view text{display: block;font-size: 28rpx;margin-bottom:10rpx;}
+.signup view{margin-bottom:30rpx;}
+
+

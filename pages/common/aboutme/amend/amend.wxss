@@ -1,0 +1,10 @@
+/* pages/common/aboutme/amend/amend.wxss */
+@import '../aboutme.wxss'
+.pic{width:100rpx;height: 100rpx;}
+
+
+
+
+
+
+

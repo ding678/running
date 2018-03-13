@@ -1,0 +1,23 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: space-between; 
+  box-sizing: border-box;
+  overflow: hidden;
+} 
+image{vertical-align: middle;}
+p,div{padding:0;margin:0;}
+.small-btn{display:inline-block;line-height:1.8;font-size:12px;padding:0 0.6em;}
+/* .look-btn{background: #47b363;color:#fff;border-color:#47b363;} */
+
+.look-btn{background: #fff;color:#47b363;border:1px solid #47b363;} 
+.sign-btn{line-height: 2;}
+
+
+
+
+
+

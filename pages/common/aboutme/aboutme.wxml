@@ -1,0 +1,30 @@
+<view class='user'>
+  <view class='user-info'>
+    <navigator url="{{amend}}?userName={{userInfo.userName}}&userPic={{userInfo.userPic}}&city={{userInfo.city}}&sex={{userInfo.sex}}">
+      <image src='{{userInfo.userPic}}'></image>
+      <text>{{userInfo.userName}}</text>
+      <image src='../../images/arrow-r.png' class='more-r'></image>
+    </navigator>
+  </view>
+  <view class='app-item'>
+    <view>
+      <text class='item-name'>我的发布</text>
+      <text class='num'>1</text>
+      <image src='../../images/arrow-r.png' class='more-r'></image>
+    </view>
+    <view>
+      <text class='item-name'>我的报名</text>
+      <text class='num'>2</text>
+      <image src='../../images/arrow-r.png' class='more-r'></image>
+    </view>
+    <view>
+      <text class='item-name'>我的收藏</text>
+      <text class='num'>3</text>
+      <image src='../../images/arrow-r.png' class='more-r'></image>
+    </view>
+  </view>
+</view>
+
+
+
+

@@ -1,0 +1,21 @@
+ <!--import  不在意引入顺序-->
+ <!-- <import src="../component/textArea.wxml"/>  -->
+ <!-- <include src="../component/textArea.wxml"/>  -->
+<view class='styleShow'>
+  <!-- <view>
+    <rich-text nodes="{{title}}"></rich-text>
+    <text class='h4'>我是标题</text>
+    <text class='signInfo'>张三三    2018-11-12 12:12 6条评论 165浏览</text>
+    <text class='intro'>这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇文章这是一篇章</text>
+    <button class='small-btn look-btn'>阅读全文</button>
+  </view> -->
+  <view wx:for="{{styleShowList}}" wx:for-item="itemName" wx:key="title">
+    <text class='h4'>我是标题</text>
+    <text class='signInfo'>{{itemName.name}} {{itemName.publishTime}} {{itemName.commonentCount}}条评论 {{itemName.readCount}}浏览</text>
+    <text class='intro'>{{itemName.title}}</text>
+    <navigator url="../articleDetail/articleDetail?article={{itemName.detailUrl}}">
+      <button class='small-btn look-btn'>阅读全文</button>
+    </navigator>
+  </view>
+  <!-- <template is="textArea"></template> -->
+</view>

@@ -1,0 +1,4 @@
+<view class='changepic'>
+ <image src='{{pic_src}}' bindtap='changepic'></image>
+ <button type="primary" size="mini" hidden="{{user_btn}}" bindtap="returnUserInfo">使用</button>
+</view>

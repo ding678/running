@@ -1,0 +1,21 @@
+/* pages/common/about/aboutme.wxss */
+.user{background: #efefef;}
+.user-info{position: relative;padding:40rpx 20rpx;background: #fff;margin-bottom:20rpx;}
+.user-info image{width: 120rpx;height: 120rpx;border-radius: 50%;}
+.user-info text{line-height: 120rpx;font-size: 28rpx;margin-left:6px;}
+.user .more-r{position: absolute;top:50%;right:20rpx;transform: translateY(-50%)}
+.user-info .more-r{width:40rpx;height:40rpx;}
+.app-item {background: #fff;padding-left:30rpx;}
+.app-item .more-r{width:24rpx;height: 24rpx;}
+.app-item view{position: relative;overflow: hidden;border-bottom:0.5px solid #dfdfdf;padding-left:8rpx;line-height: 60rpx;padding:20rpx 0;}
+.app-item text{font-size: 28rpx;color:#999;}
+.app-item .item-name{float: left;color:#555;}
+.app-item .num{float: right;margin-right: 54rpx;color:#47b363;}
+
+
+
+
+
+
+
+

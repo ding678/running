@@ -1,0 +1,34 @@
+
+<view class="container">
+  <view class='header'>
+    <swiper indicator-dots="{{dots}}" autoplay="{{autoPlay}}">
+        <block wx:for="{{banner}}">
+          <swiper-item>
+            <image src="{{item.img}}"></image>
+          </swiper-item>
+        </block>
+    </swiper>
+     <view class='desc-logo'>
+        <image src="../images/logo.jpg"></image>
+        <view class='desc-word'>
+            <text class="h1">献县跑团</text>
+            <text class='text'>携手跑出一片天!</text>
+        </view>
+     </view>
+  </view>
+  <view class='all-block'>
+    <navigator  wx:for="{{allBlock}}" wx:for-item="block" url='{{block.pages}}' wx:key="allBlock.name">
+      <view>
+        <i class="iconfont icon-{{block.iconname}}"></i>
+        <text>{{block.name}}</text>
+      </view>
+    </navigator>
+  </view>
+  <view class='footer'>    
+    <view>献县跑团是献县跑步爱好者自发组建的公益运动组织 献县跑团不参与任何经营性商业盈利行为，不收任何会费，其他收费或盈利性跑步组织与献县跑团无关 </view>
+    <view>献县跑团QQ群号:587481468</view>
+    <view>献县跑团微信号:13833733801</view>
+    <view>悦跑圈献县跑团团号:12366</view>
+    <view>@2018我的版权所有</view>
+  </view>
+</view>

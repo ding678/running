@@ -1,0 +1,7 @@
+<!--pages/common/component/textArea.wxml-->
+ <template name="textArea">
+   <navigator url=''>
+     <view class='typeword'><input type="text" placeholder='发表您的想法' disabled='disabled'/><image src='../../images/word.png'></image></view>
+   </navigator>
+ </template>  
+

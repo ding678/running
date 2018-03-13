@@ -1,0 +1,29 @@
+.styleShow{padding:0 10rpx;}
+.styleShow view{overflow: hidden;background:#f4f4f4;border-radius: 6px;margin-bottom:24rpx;padding:6px;}
+.styleShow .intro{font-size: 28rpx;color:#666;display: -webkit-box;overflow : hidden;text-overflow: ellipsis;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+.styleShow button{float: right;margin-top:20rpx;}
+.styleShow .h4{font-size:36rpx;margin-bottom:12rpx;color:#47b363;}
+.styleShow .signInfo{font-size: 20rpx;color:#999;margin-bottom:8rpx;}
+.styleShow text{display: block;}
+
+
+/*引入的template  */
+.typeword {position: fixed;bottom:0;padding:2px !important;width: 96%;}
+.typeword input{height: 3.4rem;padding-left:20rpx;font-size:32rpx;background: #fff;}
+.typeword image{position: absolute;z-index:10;top:0.5rem;right: 0.5rem;width: 2.4rem;height: 2.4rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<!--pages/common/component/editor.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<text>pages/common/component/editor.wxml</text>
+<view>
+    <text class='title'>1111</text>
+    <text class='article' contenteditable="true">2222</text>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"></template> 
+</view>
