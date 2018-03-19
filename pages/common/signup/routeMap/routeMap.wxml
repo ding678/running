@@ -1,0 +1,11 @@
+<view>
+  <view class='routeInfo'>
+      <text>最新活动：{{item.runname}}</text>
+      <text>开始时间：{{item.start}}</text>
+      <text>结束时间：{{item.end}}</text>
+      <text>活动说明：{{item.notice}}</text>
+      <text>活动路线：鸟巢-故宫-水立方</text>
+      <button size='mini' type='primary'>报名</button>
+  </view>
+  <map longitude="113.324520" latitude="23.099994"   polyline="{{polyline}}"></map>
+</view>

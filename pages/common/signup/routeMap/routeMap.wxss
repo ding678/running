@@ -1,0 +1,11 @@
+map{margin-top:3vh;width:100%;height: 73vh;}
+.routeInfo{height: 25vh;}
+.routeInfo {display: flex;flex-direction:column;padding:10rpx;position: relative;}
+.routeInfo text{line-height: 60rpx;font-size: 32rpx;}
+.routeInfo button{position: absolute;top:10rpx;right: 10rpx;}
+
+
+
+
+
+
