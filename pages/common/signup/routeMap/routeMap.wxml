@@ -7,5 +7,7 @@
       <text>活动路线：鸟巢-故宫-水立方</text>
       <button size='mini' type='primary'>报名</button>
   </view>
-  <map longitude="113.324520" latitude="23.099994"   polyline="{{polyline}}"></map>
+   <!-- <map  polyline="{{polyline}}" scale='14'></map>  -->
+   <map id="map"  scale="13" bindmarkertap="markertap" polyline="{{polyline}}" include-points="{{polyline.points}}"></map> 
+
 </view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/common/signup/routeMap/routeMap",
     "pages/index/index",
     "pages/common/aboutme/amend/amend",
     "pages/common/aboutme/amend/changepic",

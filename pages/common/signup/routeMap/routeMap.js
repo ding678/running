@@ -4,9 +4,13 @@ Page({
   /**
    * 页面的初始数据
    */
+
   data: {
-    polyline:[{
-      point: [{ latitude: 116.402359, longitude: 39.999763 }, { latitude: 116.402122, longitude: 39.929583 }, { latitude: 116.396832, longitude: 39.999271 }]
+    polyline: [{
+      points: [{ longitude: 116.402359, latitude: 39.999763 }, { longitude: 116.402122, latitude: 39.929583 }, { longitude: 116.396832, latitude: 39.999271 }],
+      color: "#FF0000DD",
+      width: 2,
+      dottedLine: true
     }]
   },
 
