@@ -1,13 +1,14 @@
 <!--pages/common/signup/signup.wxml-->
 <view class='signup'>
     <block wx:for="{{signlist}}">
-      <view>
-        <text>最新活动：{{item.runname}}</text>
-        <text>开始时间：{{item.start}}</text>
-        <text>结束时间：{{item.end}}</text>
-        <text>活动说明：{{item.notice}}</text>
-        <button class='sign-btn' type="primary">开始报名</button>
-      </view>
-    </block>
-    
+      <navigator url='routeMap/routeMap?route={{signlist}}'>
+        <view>
+          <text>最新活动：{{item.runname}}</text>
+          <text>开始时间：{{item.start}}</text>
+          <text>结束时间：{{item.end}}</text>
+          <text>活动说明：{{item.notice}}</text>
+          <button class='sign-btn' type="primary">开始报名</button>
+        </view>
+      </navigator>
+    </block>    
 </view>  

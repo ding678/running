@@ -1,10 +1,10 @@
 <view>
   <view class='routeInfo'>
-      <text>最新活动：{{item.runname}}</text>
-      <text>开始时间：{{item.start}}</text>
-      <text>结束时间：{{item.end}}</text>
-      <text>活动说明：{{item.notice}}</text>
-      <text>活动路线：鸟巢-故宫-水立方</text>
+      <text>最新活动：{{routeDetail.runname}}</text>
+      <text>开始时间：{{routeDetail.start}}</text>
+      <text>结束时间：{{routeDetail.end}}</text>
+      <text>活动说明：{{routeDetail.notice}}</text>
+      <text>活动路线：{{routeDetail.route}}</text>
       <button size='mini' type='primary'>报名</button>
   </view>
    <!-- <map  polyline="{{polyline}}" scale='14'></map>  -->

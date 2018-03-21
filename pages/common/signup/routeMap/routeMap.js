@@ -1,4 +1,5 @@
 // pages/common/signup/routeMap/routeMap.js
+const app = getApp();
 Page({
 
   /**
@@ -11,14 +12,15 @@ Page({
       color: "#FF0000DD",
       width: 2,
       dottedLine: true
-    }]
+    }],
+    routeDetail:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    console.log(app.globalData.route1)
   },
 
   /**

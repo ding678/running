@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/common/signup/signup",
     "pages/common/signup/routeMap/routeMap",
     "pages/index/index",
     "pages/common/aboutme/amend/amend",
@@ -12,7 +13,6 @@
     "pages/common/classroom/classroom",
     "pages/common/component/textArea",
     "pages/common/articleDetail/articleDetail",
-    "pages/common/signup/signup",
     "pages/common/aboutme/aboutme",
     "pages/common/styleShow/styleShow",
     "pages/common/component/editor"
