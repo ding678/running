@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/common/signup/signup",
-    "pages/common/signup/routeMap/routeMap",
+    "pages/common/classroom/classroom",
     "pages/index/index",
+    "pages/common/signup/routeMap/routeMap",
+    "pages/common/signup/signup",
     "pages/common/aboutme/amend/amend",
     "pages/common/aboutme/amend/changepic",
     "pages/common/event/event",
@@ -10,12 +11,12 @@
     "pages/logs/logs",
     "pages/common/test/test",
     "pages/common/experience/experience",
-    "pages/common/classroom/classroom",
     "pages/common/component/textArea",
     "pages/common/articleDetail/articleDetail",
     "pages/common/aboutme/aboutme",
     "pages/common/styleShow/styleShow",
-    "pages/common/component/editor"
+    "pages/common/component/editor",
+    "pages/common/classroom/classVideo/classVideo"
   ],
   "window": {
     "navigationBarBackgroundColor": "#47b363"

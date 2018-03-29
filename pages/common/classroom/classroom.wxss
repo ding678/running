@@ -1,0 +1,10 @@
+.videoCourse{padding:20rpx;}
+.video-info view{position: relative;}
+.play-num{position: absolute;right:4px;bottom:4px;background: rgba(0,0,0,0.5);color:#fff;font-size: 12px;border-radius: 3px;padding:2px 4px;z-index:10;box-shadow:0 0 1px #fff;}
+.video-info{overflow: hidden;display: flex;flex-direction: column;justify-content: center;margin-bottom:24rpx;}
+.video-info view{display: inline-block;margin-bottom:16rpx;}
+.video-info image{display: block;width:100%;height: 400rpx;}
+.play-user{font-size: 32rpx;line-height: 44rpx;}
+.play-tip{font-size: 28rpx;color:#888;line-height: 40rpx;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+

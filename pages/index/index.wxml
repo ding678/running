@@ -17,7 +17,7 @@
      </view>
   </view>
   <view class='all-block'>
-    <navigator  wx:for="{{allBlock}}" wx:for-item="block" url='{{block.pages}}' wx:key="allBlock.name">
+    <navigator  wx:for="{{allBlock}}" wx:for-item="block" url='{{block.pages}}?topbarName={{block.name}}' wx:key="allBlock.name">
       <view>
         <i class="iconfont icon-{{block.iconname}}"></i>
         <text>{{block.name}}</text>

@@ -1,0 +1,21 @@
+<!--pages/common/classroom/classVideo/classVideo.wxml-->
+<!-- <text>pages/common/classroom/classVideo/classVideo.wxml</text> -->
+<view>
+  <view class='video-info'>
+    <view>
+      <!-- <video src='{{item.videoSrc}}'></video> -->
+      <image src='{{item.playCover}}'></image>
+      <text class='play-num'>播放{{item.playnum}}次</text>
+    </view>    
+    <text class='play-user'>{{item.playName}}上传</text>
+    <text class='play-tip'>{{item.playTip}}</text>
+  </view> 
+
+</view>
+
+
+
+
+
+
+

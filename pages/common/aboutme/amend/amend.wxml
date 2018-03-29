@@ -10,17 +10,14 @@
     <view>
       <text class='item-name'>昵称</text>
       <text class='num'>{{userInfo.userName}}</text>
-      <image src='../../../images/arrow-r.png' class='more-r'></image>
     </view>
     <view>
       <text class='item-name'>性别</text>
       <text class='num'>{{userInfo.sex}}</text>
-      <image src='../../../images/arrow-r.png' class='more-r'></image>
     </view>
     <view>
       <text class='item-name'>城市</text>
       <text class='num'>{{userInfo.city}}</text>
-      <image src='../../../images/arrow-r.png' class='more-r'></image>
     </view>
   </view>
 </view>

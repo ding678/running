@@ -1,29 +1,18 @@
-// pages/common/articleDetail/articleDetail.js
-// var wxParse = require('../../wxParse/wxParse.js');
-var api = require('../../../utils/api.js')
+// pages/common/classroom/classVideo/classVideo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    article:''
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {    
-    var that = this;
-    api.ajax(options.article, function (respond){
-      var article=respond.styleshow[0];
-      wx.setNavigationBarTitle({
-        title: article.title
-      });
-      that.setData({
-        article: article
-      })
-    })
+  onLoad: function (options) {
+  
   },
 
   /**

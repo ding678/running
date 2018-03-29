@@ -3,9 +3,10 @@ map{margin-top:3vh;width:100%;height: 73vh;}
 .routeInfo {display: flex;flex-direction:column;padding:10rpx;position: relative;}
 .routeInfo text{line-height: 60rpx;font-size: 32rpx;}
 .routeInfo button{position: absolute;top:10rpx;right: 10rpx;}
-
-
-
-
-
+.signType{position: fixed;left:0;top:0;width: 100%;height: 100vh;background: rgba(0, 0, 0, 0.6);z-index: 100;}
+.signType .signInfo{position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);background:#fff;border-radius: 4px;padding:30rpx 40rpx;}
+.signInfo{width: 50vh;}
+.signInfo view{display: flex;margin-bottom: 16rpx;}
+.btn-audit{margin-top:40rpx;}
+.signInfo .tip{color:red;}
 

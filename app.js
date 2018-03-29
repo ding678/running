@@ -37,7 +37,9 @@ App({
     userInfo: null,
     eventArrange:'https://api.douban.com/v2/movie/in_theaters',
     styleShow:'https://is.snssdk.com/api/news/feed/v51/',
-    route1: { runname: '周末活动', start: '2017-02-01', end: '2017-03-01', notice: '量力而行', route: '鸟巢-故宫-水立方'}
-
+    regxp:{
+      tel:/^1[3|5|7|8]\d{9}$/,
+      name:/^[\u4E00-\u9FA5A-Za-z]{1,6}$/  
+    }
   }
 })

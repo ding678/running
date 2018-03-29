@@ -5,9 +5,27 @@
       <text>结束时间：{{routeDetail.end}}</text>
       <text>活动说明：{{routeDetail.notice}}</text>
       <text>活动路线：{{routeDetail.route}}</text>
-      <button size='mini' type='primary'>报名</button>
+      <button size='mini' type='{{typeBtn.type}}' bindtap="showSign">{{typeBtn.btnName}}</button>
   </view>
    <!-- <map  polyline="{{polyline}}" scale='14'></map>  -->
-   <map id="map"  scale="13" bindmarkertap="markertap" polyline="{{polyline}}" include-points="{{polyline.points}}"></map> 
+   <map id="map"  scale="13" bindmarkertap="markertap" polyline="{{polyline}}" include-points="{{polyline.points}}" hidden='{{zShow}}'></map> 
+   <view class='signType' hidden="{{defaultHide}}">
+     <form bindsubmit='submitData'>
+        <view class='signInfo'>
+          <view>
+            <text>姓名：</text><input type="text" placeholder='输入姓名' bindinput="nameTest" name="name"></input>
+          </view>
+          <text class='tip' hidden='{{name}}'>请勿输入特殊字符</text>
+          <view>
+            <text>电话：</text><input type="text" placeholder='输入电话' bindinput="telTest" name="tel"></input>
+          </view>
+          <text class='tip' hidden='{{tel}}'>请输入正确电话号码</text>
+          <view class='btn-audit'>
+            <button type="warn" size='mini' bindtap='cancelSign'>取消</button>
+            <button type="primary" formType="submit" size='mini'>报名</button>
+          </view>
+        </view>
+     </form>
+   </view>
 
 </view>

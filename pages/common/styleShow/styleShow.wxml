@@ -13,9 +13,9 @@
     <text class='h4'>我是标题</text>
     <text class='signInfo'>{{itemName.name}} {{itemName.publishTime}} {{itemName.commonentCount}}条评论 {{itemName.readCount}}浏览</text>
     <text class='intro'>{{itemName.title}}</text>
-    <navigator url="../articleDetail/articleDetail?article={{itemName.detailUrl}}">
+     <navigator url="../articleDetail/articleDetail?article={{itemName.detailUrl}}">
       <button class='small-btn look-btn'>阅读全文</button>
-    </navigator>
+    </navigator> 
   </view>
   <!-- <template is="textArea"></template> -->
 </view>

@@ -1,6 +1,6 @@
 /* pages/common/articleDetail/articleDetail.wxss */
-@import "../../wxParse/wxParse.wxss"
-
+/* @import "../../wxParse/wxParse.wxss" */
+.aticles{padding:20rpx;font-size: 32rpx;line-height: 44rpx;text-indent: 2em;color:#888;}
 
 
 

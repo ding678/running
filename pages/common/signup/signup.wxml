@@ -1,7 +1,7 @@
 <!--pages/common/signup/signup.wxml-->
 <view class='signup'>
     <block wx:for="{{signlist}}">
-      <navigator url='routeMap/routeMap?route={{signlist}}'>
+      <navigator url='routeMap/routeMap'>
         <view>
           <text>最新活动：{{item.runname}}</text>
           <text>开始时间：{{item.start}}</text>

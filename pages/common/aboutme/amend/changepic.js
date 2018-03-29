@@ -36,12 +36,23 @@ Page({
           case 1:
             wx.chooseImage({
               count:1,
+              sourceType: ['camera'],
               sizeType: ['compressed'],
-              sourceType:[]
+              success:function(res){
+                var new_pic_src = res.tempFilePaths[0];
+                _this.setData({
+                  pic_src: new_pic_src,
+                  user_btn: false
+                });
+                wx.setStorage({
+                  key: "userpic",
+                  data: new_pic_src
+                })
+              }
             }) 
           break;
           case 2:
-
+            
             break;
           default:
             console.log('出错了!')
