@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText": "赛事安排",
-  "enablePullDownRefresh": true
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance":200
 }

@@ -19,10 +19,6 @@ Page({
     picSrc: ['../../images/qrcode.png']
   },
   savePic:function(){
-    
-    
-
-
     wx.getSetting({
       success:(res)=>{
         wx.authorize({
@@ -33,6 +29,10 @@ Page({
         })
       }
     })
-    
+  },
+  onLoad:function(options){
+    wx.setNavigationBarTitle({
+      title: options.topbarName
+    })
   }
 })

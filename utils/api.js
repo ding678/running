@@ -1,7 +1,7 @@
 var Mock=require('mock.js')
 var hasApi=false;
 var apiHost='https://running.com'
-
+// var event=require('event.js')
 function ajax(data = '', fn, method = "get", header = { "Content-Type": "application/json"}){
   if (hasApi){
       wx.request({
@@ -18,25 +18,16 @@ function ajax(data = '', fn, method = "get", header = { "Content-Type": "applica
           "article": "@cparagraph(20,50)",
           "updataTime": "@datetime()",
           "name":"@cword(2,6)",
-          "articleUrl":"@url()"          
+          "articleUrl":"@url()",
+          "picthumb":"@Image('90x124')",
+          "readCount|1-100":100,
+          "publishTime":"@datetime()"
         }]
     });
     fn(res);    
   }
-
 }
 
-
-// var ajax=Mock.mock({
-
-//     "styleshow|3-20":[{
-//       "number|1-100": 100,
-//       "title": "@ctitle(4,16)",
-//       "intro": "@csentence(5)",
-//       "article": "@cparagraph(2)",
-//       "updataTime":"@datetime()"
-//       }]
-// })
 
 module.exports={
   ajax:ajax

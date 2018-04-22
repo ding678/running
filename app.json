@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/common/classroom/classroom",
     "pages/index/index",
+    "pages/common/classroom/classVideo/classVideo",
+    "pages/common/classroom/classroom",
     "pages/common/signup/routeMap/routeMap",
     "pages/common/signup/signup",
     "pages/common/aboutme/amend/amend",
     "pages/common/aboutme/amend/changepic",
-    "pages/common/event/event",
     "pages/common/webNotice/webNotice",
+    "pages/common/event/event",
     "pages/logs/logs",
     "pages/common/test/test",
     "pages/common/experience/experience",
@@ -15,8 +16,7 @@
     "pages/common/articleDetail/articleDetail",
     "pages/common/aboutme/aboutme",
     "pages/common/styleShow/styleShow",
-    "pages/common/component/editor",
-    "pages/common/classroom/classVideo/classVideo"
+    "pages/common/component/editor"
   ],
   "window": {
     "navigationBarBackgroundColor": "#47b363"

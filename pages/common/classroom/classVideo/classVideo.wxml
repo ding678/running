@@ -1,17 +1,23 @@
 <!--pages/common/classroom/classVideo/classVideo.wxml-->
 <!-- <text>pages/common/classroom/classVideo/classVideo.wxml</text> -->
-<view>
+<view class='videoCourse videoDetail'>
   <view class='video-info'>
+    <text class='play-tip'>视频简介：{{videoList.playTip}}</text>
     <view>
-      <!-- <video src='{{item.videoSrc}}'></video> -->
-      <image src='{{item.playCover}}'></image>
-      <text class='play-num'>播放{{item.playnum}}次</text>
-    </view>    
-    <text class='play-user'>{{item.playName}}上传</text>
-    <text class='play-tip'>{{item.playTip}}</text>
+      <text class='play-user'>{{videoList.playName}}上传</text>
+      <text class='play-date'>{{videoList.date}}</text>
+    </view>
+    <view>
+       <video src='{{videoList.videoSrc}}' bindplay='countNum' bindpause='' bindended='getNum' autoplay='true' danmu-btn='true'	enable-danmu='enable-danmu' danmu-list='{{danmuList}}'></video> 
+      <text class='play-num' hidden='{{hideNum}}'>播放{{videoList.playnum}}次</text>
+    </view>  
   </view> 
-
+  <view class='barrage'>
+      <input type='text' placeholder='发个弹幕吐槽下吧' bindblur='getValue'></input>
+      <button type='primary' bindtap='sendDanmu'>发送</button>
+  </view>
 </view>
+
 
 
 

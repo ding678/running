@@ -25,7 +25,9 @@ Page({
   error(e) {
     console.log(e.detail)
   },
-  onload:function(){
-    
+  onLoad: function (options) {
+    wx.setNavigationBarTitle({
+      title: options.topbarName
+    })
   }
 })

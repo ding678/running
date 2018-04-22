@@ -12,7 +12,7 @@ Page({
   changepic: function () {
     let _this=this;
     wx.showActionSheet({
-      itemList: ['从手机相册选择', '拍照', '保存到手机'],
+      itemList: ['从手机相册选择', '拍照'],
       success: function (res) {
         switch (res.tapIndex) {
           case 0:
@@ -51,9 +51,6 @@ Page({
               }
             }) 
           break;
-          case 2:
-            
-            break;
           default:
             console.log('出错了!')
         }

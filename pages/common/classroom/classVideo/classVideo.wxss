@@ -1,1 +1,11 @@
 /* pages/common/classroom/classVideo/classVideo.wxss */
+@import'../classroom.wxss'
+.videoDetail .play-tip{font-size:32rpx;color:#000;}
+.videoDetail .play-user,.videoDetail .play-date{color:#888;font-size: 28rpx;}
+.barrage input{border:1px solid #dfdfdf;border-radius: 4px;padding:6rpx;margin-bottom:20rpx;font-size: 32rpx;}
+.barrage button{line-height:2;}
+
+
+
+
+

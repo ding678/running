@@ -1,8 +1,8 @@
 // pages/common/event/event.js
  const app=getApp();
  const tool = require('../toolFun.js');
+ const api=require('../../../utils/api.js')
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -134,7 +134,14 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    
+    var _this=this;
+    api.ajax('event/list',function(res){
+      console.log(res)
+      var newList = _this.data.eventList.concat(res.styleshow);//将新请求的数据与旧数据拼接
+      _this.setData({
+        eventList: newList
+      })
+    })
   },
 
   /**

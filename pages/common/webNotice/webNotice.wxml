@@ -10,12 +10,12 @@
     <text>1111111111111111111111111111111111111111111111111，很烦地方大幅度发地方恒那你搞哪个你</text>
   </view>  
 </view>
-<view class='QRcode'>
+<!-- <view class='QRcode'>
   <view class='pic'>
     <image src='../../images/qrcode.png' bindtap='savePic'></image>
   </view>
   <text class='tip'>长按图片关注微信公众号！</text>
-</view>
+</view> -->
 
 
 
